@@ -11,9 +11,9 @@ const ibmPlexSerif = IBM_Plex_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Horizon",
-  description: "Horizon is a modern banking platform for everyone",
-  icons: "../public/icons/logo.svg",
+  title: "Monex",
+  description: "Monex is a modern banking platform for everyone",
+  icons: "icons/logo.svg",
 };
 
 export default function RootLayout({

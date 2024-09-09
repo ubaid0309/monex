@@ -375,8 +375,14 @@
   .sidebar-link {
     @apply flex gap-3 items-center py-1 md:p-3 2xl:p-4 rounded-lg justify-center xl:justify-start;
   }
+  .sidebar-mobile-nav-link {
+    @apply flex gap-3 items-center p-3 rounded-lg justify-start;
+  }
 
   .sidebar-label {
     @apply text-16 font-semibold text-black-2 max-xl:hidden;
+  }
+  .sidebar-mobile-nav-label {
+    @apply text-16 font-semibold text-black-2 xl:hidden;
   }
 }

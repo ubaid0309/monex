@@ -5,7 +5,7 @@ import RouteLinks from "./RouteLinks";
 
 const LeftSidebar = ({ user }: SiderbarProps) => {
   return (
-    <section className="sidebar ">
+    <section className="sidebar">
       <nav className="flex flex-col gap-4">
         <Link
           href={"/"}
@@ -17,12 +17,12 @@ const LeftSidebar = ({ user }: SiderbarProps) => {
             height={32}
             alt="monex logo"
           />
-          <h1 className="sidebar-logo ">Monex</h1>
+          <h1 className="sidebar-logo">Monex</h1>
         </Link>
-        <RouteLinks />
-        USER DETAIL
+        <RouteLinks screen="desktop" />
+        <p className="text-black-1">USER DETAIL</p>
       </nav>
-      FOOTER
+      <p className="text-black-1">USER DETAIL</p>
     </section>
   );
 };

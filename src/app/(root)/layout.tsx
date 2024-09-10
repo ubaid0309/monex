@@ -10,7 +10,7 @@ export default function RootLayout({
   const loggedInUser = { firstName: "Blaze", lastName: "Mastery" };
   return (
     <main className="flex h-screen w-full ">
-      <LeftSidebar user={loggedInUser} />
+      <LeftSidebar user={loggedInUser} /> 
       <div className="flex size-full flex-col">
         <div className="root-layout">
           <Image
